@@ -16,15 +16,15 @@
     <link rel="shortcut icon" href="../assets/LOGO-VF-PIVOOT.png" type="image/x-icon">
 
 
-    <link rel="stylesheet" href="{{ asset('css/maicons.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('css/maicons.css') }}">
 
-    <link rel="stylesheet" href="{{ asset('vendor/animate/animate.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('vendor/animate/animate.css') }}">
 
-    <link rel="stylesheet" href="{{ asset('vendor/owl-carousel/css/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('vendor/owl-carousel/css/owl.carousel.min.css') }}">
 
-    <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('css/bootstrap.css') }}">
 
-    <link rel="stylesheet" href="{{ asset('css/mobster.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('css/mobster.css') }}">
 
 </head>
 
@@ -104,7 +104,7 @@
                         <div class="col-md-3 col-lg-3 py-3 wow fadeInLeft">
                             <div class="card card-body border-0 text-center shadow pt-5 width">
                                 <div class="svg-icon mx-auto mb-5">
-                                    <img src="{{ asset('img/icons/categoria.png') }}" alt="">
+                                    <img src="{{ secure_asset('img/icons/categoria.png') }}" alt="">
                                 </div>
                                 <h5 class="fg-gray">Categorías</h5>
                                 <p class="fs-small">Su función es asignar por edades a cada jugador
@@ -114,7 +114,7 @@
                         <div class="col-md-3 col-lg-3 py-3 wow fadeInUp">
                             <div class="card card-body border-0 text-center shadow pt-5">
                                 <div class="svg-icon mx-auto mb-4">
-                                    <img src="{{ asset('img/icons/usuario-jugadores.png') }}" alt="">
+                                    <img src="{{ secure_asset('img/icons/usuario-jugadores.png') }}" alt="">
                                 </div>
                                 <h5 class="fg-gray">Usuarios</h5>
                                 <p class="fs-small">Un jugador registrado en el sistema
@@ -126,7 +126,7 @@
                         <div class="col-md-3 col-lg-3 py-3 wow fadeInUp">
                             <div class="card card-body border-0 text-center shadow pt-5">
                                 <div class="svg-icon mx-auto mb-4">
-                                    <img src="{{ asset('img/icons/acudientes.png') }}" alt="">
+                                    <img src="{{ secure_asset('img/icons/acudientes.png') }}" alt="">
                                 </div>
                                 <h5 class="fg-gray">Acudiente y novedades</h5>
                                 <p class="fs-small">El acuidente de cada jugador tendra
@@ -137,7 +137,7 @@
                         <div class="col-md-3 col-lg-3 py-3 wow fadeInRight">
                             <div class="card card-body border-0 text-center shadow pt-5">
                                 <div class="svg-icon mx-auto mb-4">
-                                    <img src="{{ asset('img/icons/director.png') }}" alt="">
+                                    <img src="{{ secure_asset('img/icons/director.png') }}" alt="">
                                 </div>
                                 <h5 class="fg-gray">Director General</h5>
                                 <p class="fs-small">
@@ -357,15 +357,15 @@
     </div>
     </div>
 
-    <script src="{{ asset('js/jquery-3.5.1.min.js') }}"></script>
+    <script src="{{ secure_asset('js/jquery-3.5.1.min.js') }}"></script>
 
-    <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ secure_asset('js/bootstrap.bundle.min.js') }}"></script>
 
-    <script src="{{ asset('vendor/owl-carousel/js/owl.carousel.min.js') }}"></script>
+    <script src="{{ secure_asset('vendor/owl-carousel/js/owl.carousel.min.js') }}"></script>
 
-    <script src="{{ asset('vendor/wow/wow.min.js') }}"></script>
+    <script src="{{ secure_asset('vendor/wow/wow.min.js') }}"></script>
 
-    <script src="{{ asset('js/mobster.js') }}"></script>
+    <script src="{{ secure_asset('js/mobster.js') }}"></script>
 
 </body>
 
