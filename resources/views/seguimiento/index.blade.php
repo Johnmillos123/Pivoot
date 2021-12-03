@@ -12,8 +12,8 @@
     <link href="./vendor/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet">
     <link href="./vendor/datatables/css/jquery.dataTables.min.css" rel="stylesheet">
     <link href="./vendor/owl-carousel/owl.carousel.css" rel="stylesheet">
-    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/inicio.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('css/style.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('css/inicio.css') }}" rel="stylesheet">
     <link href="./vendor/datatables/css/jquery.dataTables.min.css" rel="stylesheet">
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
@@ -47,9 +47,9 @@
         *************-->
         <div class="nav-header">
             <a href="{{'inicio'}}" class="brand-logo">
-                <img class="logo-abbr" src="{{ asset('assets/LOGO-VF-PIVOOT.png') }}" alt="">
-                <img class="logo-compact" src="{{ asset('assets/logo-2.png') }}" alt="">
-                <img class="brand-title" src="{{ asset('assets/logo-2.png') }}" alt="">
+                <img class="logo-abbr" src="{{ secure_asset('assets/LOGO-VF-PIVOOT.png') }}" alt="">
+                <img class="logo-compact" src="{{ secure_asset('assets/logo-2.png') }}" alt="">
+                <img class="brand-title" src="{{ secure_asset('assets/logo-2.png') }}" alt="">
             </a>
 
             <div class=" nav-control">

@@ -16,15 +16,15 @@
     <link rel="shortcut icon" href="../assets/LOGO-VF-PIVOOT.png" type="image/x-icon">
 
 
-    <link rel="stylesheet" href="{{ asset('css/maicons.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('css/maicons.css') }}">
 
-    <link rel="stylesheet" href="{{ asset('vendor/animate/animate.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('vendor/animate/animate.css') }}">
 
-    <link rel="stylesheet" href="{{ asset('vendor/owl-carousel/css/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('vendor/owl-carousel/css/owl.carousel.min.css') }}">
 
-    <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('css/bootstrap.css') }}">
 
-    <link rel="stylesheet" href="{{ asset('css/mobster.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('css/mobster.css') }}">
 
 
 </head>
@@ -112,15 +112,15 @@
 
 
 
-    <script src="{{ asset('js/jquery-3.5.1.min.js') }}"></script>
+    <script src="{{ secure_asset('js/jquery-3.5.1.min.js') }}"></script>
 
-    <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ secure_asset('js/bootstrap.bundle.min.js') }}"></script>
 
-    <script src="{{ asset('vendor/owl-carousel/js/owl.carousel.min.js') }}"></script>
+    <script src="{{ secure_asset('vendor/owl-carousel/js/owl.carousel.min.js') }}"></script>
 
-    <script src="{{ asset('vendor/wow/wow.min.js') }}"></script>
+    <script src="{{ secure_asset('vendor/wow/wow.min.js') }}"></script>
 
-    <script src="{{ asset('js/mobster.js') }}"></script>
+    <script src="{{ secure_asset('js/mobster.js') }}"></script>
 
 </body>
 

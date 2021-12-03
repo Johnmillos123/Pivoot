@@ -1,6 +1,6 @@
 @extends('templates.contenido')
 @section('contenido')
-    <link rel="stylesheet" href="{{ asset('css/categorias.css') }}" />
+    <link rel="stylesheet" href="{{ secure_asset('css/categorias.css') }}" />
 
     <center>
 
